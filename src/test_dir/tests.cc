@@ -36,7 +36,7 @@ TEST_F(FileReaderTest, exceptions) {
 }
 
 TEST_F(FileReaderTest, cube) {
-  viewer::Figure cube = file_reader.ReadFigure("./objects/cube.obj");
+  viewer::Figure cube = file_reader.ReadFigure("../obj_examples/cube.obj");
   std::vector<viewer::Vertex> test_vertices = {
       viewer::Vertex(viewer::Point{1, 1, -1}),
       viewer::Vertex(viewer::Point{1, -1, -1}),
