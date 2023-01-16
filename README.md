@@ -13,3 +13,12 @@ To build from `src` directory use command `make`
 To install from `src` directory use command `make install`
 ### Linux
 `cp -r build/3DViewer.app path/to/app/3DViewer.app`
+
+## Controls
+![3dviewer](misc/images/3DViewer.png)
+### Basic
+- To open .obj file in menu click on `File->Open file...` or use shortcut `⌘N`
+- Model can be translated/rotated/scaled with spinboxes in the right. Model can be also rotated with mouse (Left-click and drag to rotate by X-axis and Z-axis; Right-click and drag to rotate by Y-axis and Z-axis)
+### Preferences
+![Preferences](misc/images/Preferences.jpeg)
+### Tools
