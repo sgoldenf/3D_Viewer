@@ -103,7 +103,7 @@ $(ARCHIVE):
 	cp -r info.pdf $(ARCHIVE_DIR)
 	cp -r Makefile $(ARCHIVE_DIR)
 	cp -r assets $(ARCHIVE_DIR)
-	cp -r objects $(ARCHIVE_DIR)
+	cp -r ../obj_examples $(ARCHIVE_DIR)
 	tar cf $(ARCHIVE) $(ARCHIVE_DIR)
 	rm -r $(ARCHIVE_DIR)
 
