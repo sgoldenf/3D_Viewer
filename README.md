@@ -13,15 +13,10 @@ To build from `src` directory use command `make`
 ## Install
 ### MacOS
 To install from `src` directory use command `make install`
-### Linux
-`cp -r build/3DViewer.app path/to/app/3DViewer.app`
 
 ## Uninstall
 ### MacOS
 To uninstall use `make uninstall` command from `src` directory
-### Linux
-`rm -rf path/to/app/3DViewer.app`<br>
-`rm -f ~/.3DViewer_preferences.json`
 
 ## Controls
 ![3dviewer](misc/images/3DViewer.png)
