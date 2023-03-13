@@ -1,5 +1,5 @@
 # 3D_Viewer
-This is team project of application for viewing 3D wireframe models. I developed model part and helped with project architecture, OpenGL and interface logic.
+3D_Viewer is an application for viewing 3D wireframe models. We made this project in team. I developed model part and helped with project architecture, OpenGL and interface logic.
 ### Notes
 - Uses MVC and design patterns
 - Uses QT Framework and OpenGL, but for educational purposes we've written affine transformations using our own `Matrix` class (source code in `src/libs/matrix` directory)
